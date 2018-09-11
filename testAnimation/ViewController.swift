@@ -12,7 +12,7 @@ class ViewController: ZYBaseTransitionController, UITableViewDelegate, UITableVi
     
     let tableView = UITableView(frame: .zero, style: .plain)
     
-    let testArr = ["circle", "slider", "bubble", "transition","appStroetransition", "jumpStar"]
+    let testArr = ["circle", "slider", "bubble", "transition","appStroetransition", "jumpStar","systomtran"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,6 +58,8 @@ class ViewController: ZYBaseTransitionController, UITableViewDelegate, UITableVi
             self.navigationController?.pushViewController(ZYAppStoreController(), animated: true)
         case 5:
             self.navigationController?.pushViewController(ZYJumpStarController(), animated: true)
+        case 6:
+            self.navigationController?.pushViewController(ZYSystomTranViewController(), animated: true)
         default:
             print("111")
         }

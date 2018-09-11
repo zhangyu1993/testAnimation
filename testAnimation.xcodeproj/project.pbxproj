@@ -28,6 +28,8 @@
 		2A8D7DE120D20EF800BA7DF2 /* ZYBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D7DE020D20EF800BA7DF2 /* ZYBubbleView.swift */; };
 		2AC3741A20D9107C0030475D /* ZYAppStoreDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC3741920D9107C0030475D /* ZYAppStoreDetailController.swift */; };
 		2AC6FC1B20DCF4570092C436 /* ZYDownLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6FC1A20DCF4570092C436 /* ZYDownLoadView.swift */; };
+		2AD8926F212A9BA2007E5F09 /* ZYSystomTranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8926E212A9BA2007E5F09 /* ZYSystomTranViewController.swift */; };
+		2AD89271212A9C26007E5F09 /* ZYSystomViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD89270212A9C26007E5F09 /* ZYSystomViewController1.swift */; };
 		2ADACEAF20D908F500B7291D /* ZYAnimationAppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADACEAE20D908F500B7291D /* ZYAnimationAppStore.swift */; };
 		2ADACEB120D909B800B7291D /* ZYAppStoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADACEB020D909B700B7291D /* ZYAppStoreController.swift */; };
 /* End PBXBuildFile section */
@@ -77,6 +79,8 @@
 		2A8D7DE020D20EF800BA7DF2 /* ZYBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYBubbleView.swift; sourceTree = "<group>"; };
 		2AC3741920D9107C0030475D /* ZYAppStoreDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYAppStoreDetailController.swift; sourceTree = "<group>"; };
 		2AC6FC1A20DCF4570092C436 /* ZYDownLoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYDownLoadView.swift; sourceTree = "<group>"; };
+		2AD8926E212A9BA2007E5F09 /* ZYSystomTranViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYSystomTranViewController.swift; sourceTree = "<group>"; };
+		2AD89270212A9C26007E5F09 /* ZYSystomViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYSystomViewController1.swift; sourceTree = "<group>"; };
 		2ADACEAE20D908F500B7291D /* ZYAnimationAppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYAnimationAppStore.swift; sourceTree = "<group>"; };
 		2ADACEB020D909B700B7291D /* ZYAppStoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYAppStoreController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +146,7 @@
 				2A581DE720CFA1DC00A0B47D /* AppDelegate.swift */,
 				2A581DE920CFA1DC00A0B47D /* ViewController.swift */,
 				2A581DEB20CFA1DC00A0B47D /* Main.storyboard */,
+				2AD8926D212A9B7D007E5F09 /* systomTran */,
 				2A581E1B20D0C0D000A0B47D /* circleAnimation */,
 				2A581E1E20D0C4A700A0B47D /* sliderMenu */,
 				2A8D7DDD20D20B5400BA7DF2 /* qqqipao */,
@@ -215,6 +220,15 @@
 				2AC6FC1A20DCF4570092C436 /* ZYDownLoadView.swift */,
 			);
 			path = download;
+			sourceTree = "<group>";
+		};
+		2AD8926D212A9B7D007E5F09 /* systomTran */ = {
+			isa = PBXGroup;
+			children = (
+				2AD8926E212A9BA2007E5F09 /* ZYSystomTranViewController.swift */,
+				2AD89270212A9C26007E5F09 /* ZYSystomViewController1.swift */,
+			);
+			path = systomTran;
 			sourceTree = "<group>";
 		};
 		2ADACEB220D909C400B7291D /* systom */ = {
@@ -383,8 +397,10 @@
 				2AC3741A20D9107C0030475D /* ZYAppStoreDetailController.swift in Sources */,
 				2A8D7DDF20D20E8400BA7DF2 /* ZYBubbleController.swift in Sources */,
 				2A243D9C20D26D57005CBADD /* ZYBaseTransitionController.swift in Sources */,
+				2AD89271212A9C26007E5F09 /* ZYSystomViewController1.swift in Sources */,
 				2A581E2020D0C4E500A0B47D /* SliderMenuController.swift in Sources */,
 				2ADACEAF20D908F500B7291D /* ZYAnimationAppStore.swift in Sources */,
+				2AD8926F212A9BA2007E5F09 /* ZYSystomTranViewController.swift in Sources */,
 				2A581E2220D0C5CF00A0B47D /* ZYSliderMenuView.swift in Sources */,
 				2A8D7DE120D20EF800BA7DF2 /* ZYBubbleView.swift in Sources */,
 			);
